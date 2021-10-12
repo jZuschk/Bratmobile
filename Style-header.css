@@ -3,7 +3,8 @@ header {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
-.header--logo {
+.header__logo {
+    grid-column: 1 / 3 ;
 }
 .header--femilogo1 {
 }
