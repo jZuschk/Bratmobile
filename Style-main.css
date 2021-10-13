@@ -1,11 +1,16 @@
 body {
   background-image: url(Images/background_template_1.png);
+<<<<<<< Updated upstream
   background-color: #e48d8d; 
   font-family: 'Architects Daughter', cursive;
 }
 img {
   background-color: ##EDCCCC; 
   mix-blend-mode: multiply;
+=======
+  background-color: #e48d8d;
+  background-repeat: repeat;
+>>>>>>> Stashed changes
 }
 .button.play {
   width: 74px;
