@@ -1,3 +1,12 @@
-.bandcamp__footer {
-    max-width: 8em;
+
+.footer {
+    display: flex;
+}
+
+.bandcamp_image {
+    max-width: 14em;
+}
+
+.facebook_image {
+    max-width: 30em;
 }
