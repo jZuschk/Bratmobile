@@ -1,12 +1,7 @@
-
-
-.cartoons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-} 
-
 .albums img {
     max-width: 3em;
+}
+.cartoons img {
+    max-width: 5em;
 }
 
