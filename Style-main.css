@@ -60,10 +60,17 @@ h2 {
   max-width: 5em;
 }
 
-/* responsive style */
-
-@media screen and (max-width: 800px) {
+/* responsive style tablet */
+@media screen and (max-width: 750px) {
   
-  
+  .lyrics__coolimg {
+    max-width: 15em;
+  } 
+  .albums img {
+    max-width: 10em;
+  }
+  .cartoons img {
+    max-width: 10em;
+  }
 }
 
