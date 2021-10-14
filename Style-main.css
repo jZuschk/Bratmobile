@@ -73,10 +73,17 @@ h2 {
 /* responsive style desktop */
 @media screen and (min-width: 700px) {
   .lyrics__coolimg {
+    max-width: 25em;
+  }
+  .lyrics__yeastimg {
     max-width: 30em;
   }
 }
-
+@media screen and (min-width: 800px) {
+  .lyrics__memoryimg {
+    max-width: 20em;
+  }
+}
 @media screen and (min-width: 1200px) {  
   .albums img {
     max-width: 15em;
