@@ -76,3 +76,7 @@
   font-size: 1em;
   transform: rotate(25deg);
 }
+
+.playbutton {
+  max-width: 2em;
+}
