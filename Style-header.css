@@ -12,55 +12,51 @@ img {
   width: 100%;
 }
 
+.femilogofuck {
+  font-size: 1em;
+  transform: rotate(-10deg);
+  position: relative;
+  left: 1em;
+  top: -1em;
+}
+
+.femilogoboys {
+  font-size: 1em;
+  transform: rotate(25deg);
+  position: relative;
+  top: 0.5em;
+  left: 3em;
+}
+
 .welcome__femilogo {
-  width: 30%;
-  margin-top: 2.2em;
-  margin-left: 5.5em;
+  width: 40%;
+  position: relative;
+  top: -4em;
 }
 
 .welcome__welcomepic {
-  width: 60%;
+  width: 100%;
 }
 
 .welcome__pil {
-  width: 20%;
-  transform: rotate(30deg);
-  margin-left: 3em;
+  width: 40%;
+  transform: rotate(50deg);
+  position: relative;
+  top: -2em;
 }
 
 .playbutton {
   width: 30%;
-  margin-left: 1em;
+  position: relative;
+  float: left;
+  bottom: -5em;
 }
 
 .welcome__stop {
-  width: 100%;
-  grid-column: 1/3;
+  width: 70%;
   transform: rotate(20deg);
-  margin-top: 4em;
-  margin-left: 14.5em;
 }
 
 .welcome__whatspunk {
-  grid-column: 1;
   width: 100%;
-  margin-left: 1em;
-  margin-top: 1em;
-}
-
-
-.femilogofuck {
-  grid-column: 2;
-  margin-left: 6em;
-  margin-top: 0.5em;
-  font-size: 1em;
-  transform: rotate(-10deg);
-}
-
-.femilogoboys {
-  grid-column: 2;
-  margin-left: 8em;
-  margin-top: 3em;  
-  font-size: 1em;
-  transform: rotate(25deg);
 }
