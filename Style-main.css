@@ -61,7 +61,11 @@ h2 {
 }
 
 /* responsive style tablet */
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 750px) {
+  
+}
+
+/* @media screen and (max-width: 750px) {
   
   .lyrics__coolimg {
     max-width: 15em;
@@ -72,5 +76,5 @@ h2 {
   .cartoons img {
     max-width: 10em;
   }
-}
+} */
 
