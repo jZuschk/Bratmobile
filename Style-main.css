@@ -59,3 +59,10 @@ h2 {
 .cartoons img {
   max-width: 5em;
 }
+
+/* responsive style */
+
+@media screen and (max-width: 800px) {
+
+}
+
