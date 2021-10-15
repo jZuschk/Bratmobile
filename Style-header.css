@@ -10,37 +10,40 @@ img {
 
 .welcome__logo {
   width: 100%;
+  grid-column: 1/3;
 }
 
 .femilogofuck {
-  font-size: 1em;
+  font-size: 2em;
   transform: rotate(-10deg);
   position: relative;
-  left: 1em;
+  left: 0.5em;
   top: -1em;
 }
 
 .femilogoboys {
-  font-size: 1em;
+  font-size: 2em;
   transform: rotate(25deg);
   position: relative;
-  top: 0.5em;
+  top: -2em;
   left: 3em;
 }
 
 .welcome__femilogo {
-  width: 40%;
+  width: 70%;
   position: relative;
-  top: -4em;
+  top: -9em;
+  left: 2em;
 }
 
 .welcome__welcomepic {
   width: 100%;
+  position: relative;
 }
 
 .welcome__pil {
-  width: 40%;
-  transform: rotate(50deg);
+  width: 45%;
+  transform: rotate(40deg);
   position: relative;
   top: -2em;
 }
@@ -52,11 +55,15 @@ img {
   bottom: -5em;
 }
 
+.welcome__whatspunk {
+  width: 100%;
+  position: relative;
+  left: 1em;
+}
+
 .welcome__stop {
   width: 70%;
   transform: rotate(20deg);
-}
-
-.welcome__whatspunk {
-  width: 100%;
+  position: relative;
+  left: 2em;
 }
