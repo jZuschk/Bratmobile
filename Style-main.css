@@ -23,8 +23,6 @@ h2 {
   font-family: "Architects Daughter", cursive;
 }
 
-.main {
-}
 /* lyrics style */
 .lyrics {
   display: grid;
@@ -33,18 +31,17 @@ h2 {
 }
 
 .lyrics__memoryimg {
-  max-width: 14em;
-  grid-column: 1;
+  width: 70%;
   margin-top: 1em;
   margin-left: 1em;
 }
 .lyrics__coolimg {
-  max-width: 14em;
+  max-width: 10em;
   margin-top: 8em;
 }
 
 .lyrics__yeastimg {
-  max-width: 24em;
+  width: 80%;
   grid-column: 1/3;
   margin-top: 2em;
   margin-left: 4em;
@@ -61,11 +58,10 @@ h2 {
 }
 
 /* responsive style tablet */
-@media screen and (max-width: 750px) {
-  
+@media screen and (min-width: 450px) {
   .lyrics__coolimg {
-    max-width: 15em;
-  } 
+    max-width: 20em;
+  }
   .albums img {
     max-width: 10em;
   }
@@ -73,4 +69,28 @@ h2 {
     max-width: 10em;
   }
 }
-
+/* responsive style desktop */
+@media screen and (min-width: 700px) {
+  .lyrics__coolimg {
+    max-width: 25em;
+  }
+  .lyrics__yeastimg {
+    max-width: 30em;
+  }
+}
+@media screen and (min-width: 800px) {
+  .lyrics__memoryimg {
+    max-width: 20em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .albums img {
+    max-width: 15em;
+  }
+  .cartoons img {
+    max-width: 15em;
+  }
+  p {
+    font-size: 2em;
+  }
+}
