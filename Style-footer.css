@@ -14,7 +14,6 @@ font-family: "Architects Daughter", cursive;
 .end__somecontent {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .end__bandcampimage {
