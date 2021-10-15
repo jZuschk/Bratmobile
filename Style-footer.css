@@ -48,3 +48,50 @@ font-family: "Architects Daughter", cursive;
   grid-column: 2;
   grid-row: 2;
 }
+
+
+/*media query desktop*/
+@media screen and (min-width: 750px){
+
+.end {
+}
+
+.end__somecontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.end__bandcampimage {
+  max-width: 30em;
+}
+
+.end__bandcamplink {
+  grid-column: 1;
+  grid-row: 1;
+  max-width: 30em;
+}
+
+.end__facebookimage {
+  max-width: 34em;
+}
+
+.end__facebooklink {
+  max-width: 34em;
+  grid-column: 1;
+}
+.end__zineimage {
+  max-width: 24em;
+}
+
+.end__zinelink {
+  max-width: 24em;
+  grid-column: 2;
+  grid-row: 1;
+}
+.copyright {
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 2em;
+}
+}
