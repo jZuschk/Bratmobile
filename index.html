@@ -35,9 +35,36 @@
         alt=""
         class="welcome__whatspunk"
       />
-      <section>
+      <section class="player">
         <img src="images/Femipil.png" alt="" class="welcome__pil" />
-        <img src="images/Play_button_index.png.png" alt="" class="playbutton" />
+          <button class="playbutton">
+            <img
+              src="images/Play_button_index.png.png"
+              alt="play and pause button for the audio"
+              class="player__icon"
+              width="30"
+            />
+          </button>
+          <audio
+            class="player__audio"
+            src="music/Bratmobile-Cherry_Bomb.mp3"
+          ></audio>
+          <script>
+            let playerButton = document.querySelector(".player__button");
+            let playerIcon = document.querySelector(".player__icon");
+            let playerAudio = document.querySelector(".player__audio");
+    
+            // Setup eventhandler
+            playerButton.addEventListener("click", () => {
+              if (playerAudio.paused) {
+                playerIcon.src = "images/pause_button_index.png.png";
+                playerAudio.play();
+              } else {
+                playerAudio.pause();
+                playerIcon.src = "images/Play_button_index.png.png";
+              }
+            });
+          </script>
       </section>
       <img src="images/STOP.png" alt="" class="welcome__stop" />
       <img src="images/memory.png" alt="" class="lyrics__memoryimg" />
